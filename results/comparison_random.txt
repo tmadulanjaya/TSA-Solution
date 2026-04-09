@@ -1,0 +1,4 @@
+GA best: 850.88
+Random best: 4454.94
+Improvement: 80.9%
+Random iters: 5000

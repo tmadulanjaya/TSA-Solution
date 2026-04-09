@@ -1,0 +1,15 @@
+runs=10  pop=400  gens=2000  mut=0.03
+
+mean: 882.51  std: 16.60  95% CI: [869.99, 895.03]
+best: 847.79 (run 10)  worst: 906.87
+
+  run  1 (seed=0): 892.03
+  run  2 (seed=1): 897.58
+  run  3 (seed=2): 885.82
+  run  4 (seed=3): 906.87
+  run  5 (seed=4): 867.09
+  run  6 (seed=5): 880.65
+  run  7 (seed=6): 878.98
+  run  8 (seed=7): 870.57
+  run  9 (seed=8): 897.75
+  run 10 (seed=9): 847.79

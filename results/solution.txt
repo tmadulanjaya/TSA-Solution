@@ -1,0 +1,118 @@
+TSP GA SOLUTION
+total distance : 850.88
+cities         : 100
+
+route:
+City_13 -> City_26 -> City_15 -> City_4 -> City_21 -> City_40 -> City_98 -> City_83 -> City_99 -> City_37
+City_56 -> City_14 -> City_29 -> City_72 -> City_42 -> City_6 -> City_77 -> City_66 -> City_10 -> City_58
+City_32 -> City_79 -> City_90 -> City_68 -> City_71 -> City_64 -> City_0 -> City_23 -> City_31 -> City_5
+City_49 -> City_44 -> City_84 -> City_22 -> City_36 -> City_19 -> City_63 -> City_46 -> City_61 -> City_85
+City_96 -> City_93 -> City_3 -> City_47 -> City_60 -> City_95 -> City_41 -> City_89 -> City_24 -> City_17
+City_8 -> City_81 -> City_48 -> City_28 -> City_45 -> City_9 -> City_75 -> City_67 -> City_51 -> City_73
+City_52 -> City_11 -> City_55 -> City_43 -> City_33 -> City_53 -> City_69 -> City_1 -> City_88 -> City_25
+City_80 -> City_35 -> City_94 -> City_2 -> City_38 -> City_30 -> City_87 -> City_74 -> City_76 -> City_70
+City_62 -> City_7 -> City_50 -> City_34 -> City_12 -> City_92 -> City_91 -> City_86 -> City_20 -> City_65
+City_27 -> City_54 -> City_39 -> City_18 -> City_97 -> City_78 -> City_82 -> City_16 -> City_59 -> City_57
+City_13
+
+segment distances:
+  City_13 -> City_26: 1.61
+  City_26 -> City_15: 5.59
+  City_15 -> City_4: 4.53
+  City_4 -> City_21: 2.01
+  City_21 -> City_40: 6.86
+  City_40 -> City_98: 12.25
+  City_98 -> City_83: 3.94
+  City_83 -> City_99: 10.71
+  City_99 -> City_37: 7.75
+  City_37 -> City_56: 3.22
+  City_56 -> City_14: 10.10
+  City_14 -> City_29: 18.27
+  City_29 -> City_72: 4.10
+  City_72 -> City_42: 3.25
+  City_42 -> City_6: 9.00
+  City_6 -> City_77: 2.85
+  City_77 -> City_66: 9.39
+  City_66 -> City_10: 12.43
+  City_10 -> City_58: 5.76
+  City_58 -> City_32: 11.94
+  City_32 -> City_79: 5.38
+  City_79 -> City_90: 4.46
+  City_90 -> City_68: 6.90
+  City_68 -> City_71: 12.65
+  City_71 -> City_64: 11.04
+  City_64 -> City_0: 11.06
+  City_0 -> City_23: 7.90
+  City_23 -> City_31: 22.56
+  City_31 -> City_5: 3.08
+  City_5 -> City_49: 4.12
+  City_49 -> City_44: 7.42
+  City_44 -> City_84: 5.87
+  City_84 -> City_22: 6.29
+  City_22 -> City_36: 20.12
+  City_36 -> City_19: 2.45
+  City_19 -> City_63: 6.56
+  City_63 -> City_46: 8.65
+  City_46 -> City_61: 4.63
+  City_61 -> City_85: 6.05
+  City_85 -> City_96: 20.83
+  City_96 -> City_93: 10.05
+  City_93 -> City_3: 13.00
+  City_3 -> City_47: 7.88
+  City_47 -> City_60: 18.83
+  City_60 -> City_95: 10.67
+  City_95 -> City_41: 9.74
+  City_41 -> City_89: 2.50
+  City_89 -> City_24: 2.13
+  City_24 -> City_17: 8.02
+  City_17 -> City_8: 8.73
+  City_8 -> City_81: 11.74
+  City_81 -> City_48: 9.85
+  City_48 -> City_28: 6.38
+  City_28 -> City_45: 7.62
+  City_45 -> City_9: 6.07
+  City_9 -> City_75: 9.96
+  City_75 -> City_67: 7.42
+  City_67 -> City_51: 5.95
+  City_51 -> City_73: 4.24
+  City_73 -> City_52: 14.85
+  City_52 -> City_11: 3.45
+  City_11 -> City_55: 9.40
+  City_55 -> City_43: 6.01
+  City_43 -> City_33: 5.40
+  City_33 -> City_53: 16.12
+  City_53 -> City_69: 13.70
+  City_69 -> City_1: 5.81
+  City_1 -> City_88: 12.42
+  City_88 -> City_25: 14.47
+  City_25 -> City_80: 11.61
+  City_80 -> City_35: 5.75
+  City_35 -> City_94: 4.06
+  City_94 -> City_2: 4.61
+  City_2 -> City_38: 6.86
+  City_38 -> City_30: 9.37
+  City_30 -> City_87: 14.10
+  City_87 -> City_74: 11.36
+  City_74 -> City_76: 7.90
+  City_76 -> City_70: 1.34
+  City_70 -> City_62: 7.16
+  City_62 -> City_7: 12.76
+  City_7 -> City_50: 18.44
+  City_50 -> City_34: 3.49
+  City_34 -> City_12: 13.38
+  City_12 -> City_92: 7.74
+  City_92 -> City_91: 4.76
+  City_91 -> City_86: 8.16
+  City_86 -> City_20: 11.82
+  City_20 -> City_65: 7.46
+  City_65 -> City_27: 3.82
+  City_27 -> City_54: 15.03
+  City_54 -> City_39: 15.84
+  City_39 -> City_18: 7.96
+  City_18 -> City_97: 0.63
+  City_97 -> City_78: 7.96
+  City_78 -> City_82: 3.01
+  City_82 -> City_16: 12.39
+  City_16 -> City_59: 7.83
+  City_59 -> City_57: 13.36
+  City_57 -> City_13: 4.93
